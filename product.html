@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products Fashion Store | E-commerce Website</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">Fashion Store</a>
+        </div>
+        <nav>
+          <ul class="mobile-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </nav>
+        <img src="/images/cart.png" alt="cart" class="cart" />
+        <img
+          src="/images/menu.png"
+          alt="menu bar"
+          class="menu-icon"
+          onclick="menuToggle()"
+        />
+      </div>
+    </div>
+    <!-- end of header -->
+
+    <!--  All Product section -->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>All Products</h2>
+        <select name="" id="">
+          <option value="">Default</option>
+          <option value="">Short by Price</option>
+          <option value="">Short by Popularity</option>
+          <option value="">Short by Rating</option>
+          <option value="">Short by Sale</option>
+        </select>
+      </div>
+      <div class="row">
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-1.jpg" alt="product-1" />
+          <h4>Red Printed T-Shirt</h4>
+          <p>$70.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-2.jpg" alt="product-2" />
+          <h4>HRX Sports Shoes</h4>
+          <p>$90.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-3.jpg" alt="product-3" />
+          <h4>Grey Joggers</h4>
+          <p>$120.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-4.jpg" alt="product-4" />
+          <h4>Puma Solid Blue T-Shirt</h4>
+          <p>$30.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+      </div>
+      <div class="row">
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-5.jpg" alt="product-5" />
+          <h4>Grey Casual Sneaker</h4>
+          <p>$70.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-6.jpg" alt="product-6" />
+          <h4>Puma Solid Black T-Shirt</h4>
+          <p>$90.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-7.jpg" alt="product-7" />
+          <h4>HRX Shocks</h4>
+          <p>$35.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-8.jpg" alt="product-8" />
+          <h4>Formal Men Watch</h4>
+          <p>$110.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-9.jpg" alt="product-9" />
+          <h4>Semi-Casual Watch</h4>
+          <p>$150.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-10.jpg" alt="product-10" />
+          <h4>Canvas Black Sports Shoes</h4>
+          <p>$60.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-11.jpg" alt="product-11" />
+          <h4>Gray Casual Sneakers</h4>
+          <p>$30.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+        <!-- single col -->
+        <div class="col-4">
+          <img src="/images/product-12.jpg" alt="product-12" />
+          <h4>Black Solid Joggers</h4>
+          <p>$40.00</p>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <!-- end of single col -->
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span><i class="fas fa-long-arrow-alt-right"></i></span>
+      </div>
+    </div>
+    <!-- end of All Product section -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- single col -->
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone</p>
+            <div class="app__logo">
+              <img src="/images/play-store.png" alt="play store" />
+              <img src="/images/app-store.png" alt="app store" />
+            </div>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="footer-col-2">
+            <h3><a href="#" class="footer__logo">Fashion Store</a></h3>
+            <p>
+              Our purpose is to Sustainably Make the pleasure and Benefits of
+              Sports Accesible to the Many.
+            </p>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Coupons</li>
+              <li>Retun Policy</li>
+              <li>Join Us</li>
+            </ul>
+          </div>
+          <!-- end of single col -->
+          <!-- single col -->
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+          <!-- end of single col -->
+        </div>
+        <hr class="hr" />
+        <p class="copyright">&copy;Copyright 2021. All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="/js/app.js"></script>
+  </body>
+</html>
